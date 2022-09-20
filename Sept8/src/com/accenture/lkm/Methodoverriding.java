@@ -1,0 +1,23 @@
+package com.accenture.lkm;
+
+class Test{
+	void showInfo() {
+		System.out.println("perent class method1");
+	}
+	}
+class Test1 extends Test{
+		void displayInfo() {
+			System.out.println("child class method1");
+		}
+	}
+		
+	public class Methodoverriding {
+
+		public static void main(String[] args) {
+			Test1 t=new Test1();
+			t.showInfo();
+			t.displayInfo();
+			
+		}
+
+	}
